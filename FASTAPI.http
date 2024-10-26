@@ -1,0 +1,35 @@
+POST http://localhost:8000/Students_Details_Enrollment
+Content-Type: application/json
+
+{
+    "NAMES":"PAVAN",
+    "GENDERS":"MALE",
+    "AGES":20,
+    "SCHOOL_NAMES":"PADMAVANI",
+    "STANDARDS":10,
+    "SECTIONS":"A",
+    "ROLL_NUMBERS":1,
+    "CONTACT_NUMBERS":8938503483,
+    "PERCENTAGES":99.9
+}
+###
+
+GET http://localhost:8000/students
+
+# POST http://localhost:8000/heroes
+# Content-Type: application/json
+
+# {
+#     "id":3,
+#     "name":"pavan",
+#     "age":20,
+#     "secret_name":"siva"
+# }
+
+# ###
+
+# GET http://localhost:8000/heroes
+
+# ###
+
+# DELETE http://localhost:8000/heroes/1
